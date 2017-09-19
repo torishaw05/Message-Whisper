@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.card-text {
+  border:  4px solid rgb(226, 128, 228);
+  background-color: rgb(226, 128, 228);
+  border-radius: 100px;
+  height: 200px;
+  color: gray;
+  font-size: 40px;
+
+}
+body {
+  background-color: rgba(139, 139, 139, 0.92);
+}
+
+.card-subtitle {
+  color: white;
+  font-size: 30px;
+  padding-top: 40px;
+  margin: 0%;
+}
+input {
+  height: 40px;
+  width: 20%;
+  border: 5px solid rgb(226, 128, 228) ;
+  color: rgb(226, 128, 228);
+  font-size: 30px;
+}
+input:hover{
+  background-color: black;
+}
+form {
+  padding-top: 45px;
+}
+button {
+  border-radius: 30px;
+  height: 40px;
+  width: 90px;
+border: 5px solid rgb(226, 128, 228);
+color:rgb(226, 128, 228);
+font-weight: bold;
+font-size: 20px;
+
+}
+button:hover {
+  background-color:rgb(226, 128, 228);
+  color: white;
+  border:4px solid white;
+
+}
+footer {
+  background-color: rgb(226, 128, 228);
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+.navbar-brand {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
