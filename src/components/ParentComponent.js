@@ -1,9 +1,4 @@
-`im
-ç
-
-
-q
-port React, { Component } from 'react';
+import React, { Component } from 'react';
 import ChildComponent from '../components/ChildComponent.js';
 import DisplayComponent from '../components/DisplayComponent.js';
 
@@ -27,8 +22,9 @@ class ParentComponent extends Component {
   handleInput(e) {
     e.preventDefault();
     //set the state on input change
+    
     let whatToSay = e.target.value
-    this.setState({whatToSay: this.state.whatToSay});
+    this.setState({whatToSay: whatToSay});
   }
   handleSubmit(e) {
     e.preventDefault();
@@ -48,7 +44,7 @@ class ParentComponent extends Component {
           <input onChange={this.handleInput} type="text"  placeholder="Type here!" />
         </div>
 
-          <ChildComponent onClick={this.handle.submit}/>
+          <ChildComponent onClick={this.handleSubmit}/>
           < /form>
           <DisplayComponent sayWhat={this.state.whatWasSaid} />
       </div>
